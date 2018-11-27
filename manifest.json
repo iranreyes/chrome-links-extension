@@ -1,0 +1,17 @@
+{
+  "name": "Jam3",
+  "version": "0.1",
+  "description": "Jam3 Internal Chrome Extension",
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "images/jam3_16.png",
+    "32": "images/jam3_32.png",
+    "48": "images/jam3_48.png",
+    "128": "images/jam3_128.png"
+  },
+  "browser_action": {
+    "default_title": "Jam3 Internal",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
